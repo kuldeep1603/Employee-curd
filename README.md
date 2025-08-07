@@ -64,10 +64,14 @@ npm install
 npm run dev
 
 
-
 🔀 API Endpoints (Backend)
+
 Method	Endpoint	Description
+
 GET	/api/employees	Get all employees
+
 POST	/api/employees	Create new employee
+
 PUT	/api/employees/:id	Update employee by ID
+
 DELETE	/api/employees/:id	Delete employee by ID
