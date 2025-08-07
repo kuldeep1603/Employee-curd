@@ -20,32 +20,49 @@ This is a full-stack Employee Management system with the following tech stack:
 ## 📦 Backend Setup (Express + PostgreSQL)
 
 ### 1. 📁 Navigate to `server` folder:
+
 cd server
 
 📥 Install dependencies:
+
 npm install
 
 ⚙️ Create PostgreSQL DB
+
 CREATE DATABASE employee_db;
+
 
 Then create the employees table:
 
+
 CREATE TABLE employees (
+
   id SERIAL PRIMARY KEY,
+  
   name VARCHAR(255),
+  
   email VARCHAR(255),
+  
   position VARCHAR(100)
+
 );
 
+
 ▶️ Run backend server:
+
 npm start
 
 
 💻 Frontend Setup (React + Tailwind + Redux)
+
 📁 Navigate to client-side folder:
+
 cd client-side
+
 npm install
+
 npm run dev
+
 
 
 🔀 API Endpoints (Backend)
